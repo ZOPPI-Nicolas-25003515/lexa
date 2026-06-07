@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://cv1m0ua3wg6hm"]
+
+[ext_resource type="Texture2D" uid="uid://lc0yl5aubwe4" path="res://assets/sprites/knightNormal.png" id="1_610dx"]
+[ext_resource type="Texture2D" uid="uid://bk3ga8134m27y" path="res://assets/sprites/fenetre_steampunk.png" id="2_610dx"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=9072173]
+
+[node name="FenetreDuDialogue" type="HBoxContainer" parent="." unique_id=578298869]
+offset_left = -87.0
+offset_top = -63.0
+offset_right = 464.0
+offset_bottom = 120.0
+
+[node name="MarginContainer" type="MarginContainer" parent="FenetreDuDialogue" unique_id=939742228]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="FenetreDuDialogue/MarginContainer" unique_id=650253969]
+layout_mode = 2
+texture = ExtResource("1_610dx")
+expand_mode = 2
+
+[node name="Text_box" type="MarginContainer" parent="FenetreDuDialogue" unique_id=68582187]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.0
+
+[node name="NinePatchRect" type="NinePatchRect" parent="FenetreDuDialogue/Text_box" unique_id=326024116]
+layout_mode = 2
+texture = ExtResource("2_610dx")
+region_rect = Rect2(6, 0, 318, 160)
+
+[node name="MarginContainer" type="MarginContainer" parent="FenetreDuDialogue/Text_box" unique_id=1823302522]
+layout_mode = 2
+size_flags_horizontal = 9
+size_flags_vertical = 0
+theme_override_constants/margin_left = 44
+theme_override_constants/margin_top = 46
+theme_override_constants/margin_right = 43
+theme_override_constants/margin_bottom = 42
+
+[node name="Label" type="Label" parent="FenetreDuDialogue/Text_box/MarginContainer" unique_id=637562442]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = 0
+theme_override_constants/paragraph_spacing = 0
+theme_override_font_sizes/font_size = 10
+autowrap_mode = 2
