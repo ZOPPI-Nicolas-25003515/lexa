@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cv1m0ua3wg6hm"]
 
-[ext_resource type="Texture2D" uid="uid://lc0yl5aubwe4" path="res://assets/sprites/knightNormal.png" id="1_610dx"]
+[ext_resource type="Texture2D" uid="uid://c4t04lubgh73y" path="res://assets/sprites/lexa_base.png" id="1_610dx"]
 [ext_resource type="Texture2D" uid="uid://bk3ga8134m27y" path="res://assets/sprites/fenetre_steampunk.png" id="2_610dx"]
 
 [node name="CanvasLayer" type="CanvasLayer" unique_id=9072173]
@@ -17,7 +17,7 @@ layout_mode = 2
 [node name="TextureRect" type="TextureRect" parent="FenetreDuDialogue/MarginContainer" unique_id=650253969]
 layout_mode = 2
 texture = ExtResource("1_610dx")
-expand_mode = 2
+expand_mode = 3
 
 [node name="Text_box" type="MarginContainer" parent="FenetreDuDialogue" unique_id=68582187]
 layout_mode = 2
