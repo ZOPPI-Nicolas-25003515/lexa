@@ -1,0 +1,11 @@
+[gd_resource type="StyleBoxTexture" format=3 uid="uid://dam15pkwjehqc"]
+
+[ext_resource type="Texture2D" uid="uid://bk3ga8134m27y" path="res://assets/sprites/fenetre_steampunk.png" id="1_rj2f4"]
+
+[resource]
+content_margin_left = 75.0
+content_margin_top = 50.0
+content_margin_right = 75.0
+content_margin_bottom = 45.0
+texture = ExtResource("1_rj2f4")
+texture_margin_top = 55.0

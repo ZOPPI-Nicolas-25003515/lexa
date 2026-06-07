@@ -1,0 +1,12 @@
+res://timeline/timeline-test.dtl
+res://characters/knight.dch
+res://timeline/style/base.tres
+res://game.tscn
+res://script/game.gd
+res://timeline/style/yup.tres
+res://timeline/style/testing.tres
+res://timeline/style/VisualNovelTextbox/custom_visual_novel_textbox.tscn
+res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.gd
+res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_default_panel.tres
+res://timeline/style/testStyle.tres
+res://timeline/style/vn_textbox_layer.tscn
