@@ -1,1 +1,8 @@
+res://assets/scenes/node_2d.tscn
+res://assets/style/vn.tres
+res://characters/lexa.dch
+res://assets/style/rpg.tres
+res://assets/timelines/timeline1.dtl
+res://assets/style/VisualNovelTextbox/custom_visual_novel_textbox.tscn
+res://assets/style/TextboxWithPortrait/custom_textbox_with_portrait_.tscn
 res://assets/scenes/Boite_de_dialogue_de_base.tscn

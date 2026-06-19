@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="DialogicStyle" format=3 uid="uid://bs576k3y7jk0"]
+
+[ext_resource type="Script" uid="uid://bwg6yncmh2cml" path="res://addons/dialogic/Resources/dialogic_style_layer.gd" id="1_nyunl"]
+[ext_resource type="Script" uid="uid://dv08k6ljua6fm" path="res://addons/dialogic/Resources/dialogic_style.gd" id="2_6hcgc"]
+[ext_resource type="PackedScene" uid="uid://cv1m0ua3wg6hm" path="res://assets/scenes/Boite_de_dialogue_de_base.tscn" id="2_er83j"]
+
+[sub_resource type="Resource" id="Resource_er83j"]
+script = ExtResource("1_nyunl")
+
+[sub_resource type="Resource" id="Resource_md3me"]
+script = ExtResource("1_nyunl")
+scene = ExtResource("2_er83j")
+
+[resource]
+script = ExtResource("2_6hcgc")
+name = "test"
+layer_list = Array[String](["10"])
+layer_info = {
+"": SubResource("Resource_er83j"),
+"10": SubResource("Resource_md3me")
+}
+metadata/_latest_layer = "10"
