@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="lexa"
+run/main_scene="uid://cnp8o7xlx7plp"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -21,8 +22,7 @@ Dialogic="*uid://ds2q0uclmolvu"
 [dialogic]
 
 directories/dch_directory={
-"lexa": "res://characters/lexa.dch",
-"ugo": "res://characters/ugo.dch"
+"lexa": "res://characters/lexa.dch"
 }
 directories/dtl_directory={
 "timeline1": "res://assets/timelines/timeline1.dtl"
