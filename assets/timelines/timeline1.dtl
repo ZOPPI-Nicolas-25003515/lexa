@@ -6,5 +6,11 @@ lexa (Lexa souriante): Salut !
 	- e
 	- d
 	- f
+- voir photo
+	[background arg="res://assets/sprites/chambre.jpg" fade="0.0"]
+	[wait time="5.0"]
+	lexa: abcdefghijklmnop
+- 
 - Salut
 	lexa (Lexa énervée): iseufhcsiujfhiezfowdij,oviejfojsjv,osjgvosie,fozijvi,fozk,vikghidsn,izjhoiad,osv,osijgsok,clovjosjgez,voizjfoiaf,covjgiozejfokfn,oihzeignvienviozvnisnbinf
+do Dialogic.start()

@@ -17,7 +17,6 @@ var next_texture: ViewportTexture
 
 ## Set before _fade() is called, will be the requested time for the fade
 var time: float
-
 ## Set before _fade() is called, will be the background holder (TextureRect)
 var bg_holder: DialogicNode_BackgroundHolder
 
