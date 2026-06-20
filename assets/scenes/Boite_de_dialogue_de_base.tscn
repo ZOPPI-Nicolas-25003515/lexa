@@ -27,7 +27,7 @@ size_flags_stretch_ratio = 0.0
 [node name="NinePatchRect" type="NinePatchRect" parent="FenetreDuDialogue/Text_box" unique_id=326024116]
 layout_mode = 2
 texture = ExtResource("2_610dx")
-region_rect = Rect2(6, 0, 318, 160)
+region_rect = Rect2(0, 0, 336, 160)
 
 [node name="MarginContainer" type="MarginContainer" parent="FenetreDuDialogue/Text_box" unique_id=1823302522]
 layout_mode = 2
