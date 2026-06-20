@@ -230,6 +230,7 @@ box_panel = "res://assets/style/VisualNovelTextbox/vn_textbox_default_panel.tres
 box_size = Vector2(550, 150)
 name_label_box_panel = "res://assets/style/VisualNovelTextbox/vn_textbox_name_label_panel.tres"
 name_label_box_modulate = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="Animations" type="AnimationPlayer" parent="." unique_id=1454381883]
 unique_name_in_owner = true
@@ -349,9 +350,9 @@ mouse_filter = 2
 unique_name_in_owner = true
 self_modulate = Color(0.00784314, 0.00784314, 0.00784314, 0.843137)
 layout_mode = 1
-offset_left = -15.0
+offset_left = -14.0
 offset_top = -48.0
-offset_right = 164.0
+offset_right = 112.0
 offset_bottom = -16.0
 mouse_filter = 2
 theme_override_styles/panel = ExtResource("9_yg8ig")
