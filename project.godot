@@ -21,7 +21,8 @@ Dialogic="*uid://ds2q0uclmolvu"
 [dialogic]
 
 directories/dch_directory={
-"lexa": "res://characters/lexa.dch"
+"lexa": "res://characters/lexa.dch",
+"ugo": "res://characters/ugo.dch"
 }
 directories/dtl_directory={
 "timeline1": "res://assets/timelines/timeline1.dtl"

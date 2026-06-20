@@ -262,8 +262,8 @@ mouse_filter = 2
 [node name="DialogicNode_PortraitContainer" type="Control" parent="Anchor/AnimationParent" unique_id=1028557662]
 anchors_preset = 0
 offset_left = -383.0
-offset_top = -511.0
-offset_right = -167.0
+offset_top = -650.0
+offset_right = -150.0
 offset_bottom = 35.0
 mouse_filter = 2
 script = ExtResource("3_ket5e")

@@ -4,3 +4,5 @@
 
 [resource]
 texture = ExtResource("1_ux44r")
+texture_margin_right = 32.0
+region_rect = Rect2(0, 0, 116, 28)

@@ -49,7 +49,7 @@ script = ExtResource("2_siqed")
 scene = ExtResource("8_mvb14")
 overrides = {
 "boxes_offset": "Vector2(430, 170)",
-"boxes_stylebox_focused": "\"res://assets/ressources/cadreChoix.tres\"",
+"boxes_stylebox_focused": "\"res://assets/ressources/cadreChoixPointe.tres\"",
 "boxes_stylebox_hovered": "\"res://assets/ressources/cadreChoixPointe.tres\"",
 "boxes_stylebox_normal": "\"res://assets/ressources/cadreChoix.tres\""
 }
@@ -77,4 +77,4 @@ layer_info = {
 "16": SubResource("Resource_3o8lb"),
 "17": SubResource("Resource_ibggk")
 }
-metadata/_latest_layer = "13"
+metadata/_latest_layer = "12"
