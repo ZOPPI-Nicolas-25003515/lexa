@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://8t75k2wrn1ig"]
+
+[ext_resource type="Script" uid="uid://chj0gkix376if" path="res://assets/scenes/photo_de_famille.gd" id="1_01cvd"]
+[ext_resource type="Texture2D" uid="uid://47yiryoofh02" path="res://assets/sprites/Tableau_famille_Lexa.PNG" id="2_01cvd"]
+[ext_resource type="Script" uid="uid://blsjcvm6gvd78" path="res://addons/dialogic/Modules/Background/dialogic_background.gd" id="2_e61wo"]
+
+[node name="Node2D" type="Node2D" unique_id=103813055]
+position = Vector2(1128, 806)
+script = ExtResource("1_01cvd")
+
+[node name="DialogicBackground" type="Node" parent="." unique_id=2047468970]
+script = ExtResource("2_e61wo")
+metadata/_custom_type_script = "uid://blsjcvm6gvd78"
+
+[node name="TextureRect" type="TextureRect" parent="DialogicBackground" unique_id=1064363914]
+anchors_preset = -1
+anchor_left = -0.162
+anchor_top = -0.62700003
+anchor_right = 1.9300001
+anchor_bottom = 1.94
+offset_left = -0.37600708
+offset_top = 0.2960205
+offset_right = -0.36010742
+offset_bottom = -0.03503418
+texture = ExtResource("2_01cvd")
