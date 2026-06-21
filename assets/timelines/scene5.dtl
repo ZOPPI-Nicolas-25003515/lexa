@@ -7,13 +7,12 @@ lexa (Lexa chokbar): Que s’est-il passé ? Comment vont-ils ?!
 serviteur (Serviteur triste): Ils sont vivants, mais pas sans blessures. Les insurgés ont provoqué un incendie dans l'entrepôt dans lequel ils se trouvaient.
 lexa (Lexa énervée): Ils étaient ciblés ?
 serviteur (Serviteur triste): C’est probable.
-serviteur (Serviteur énervée): Nous avons capturé un des criminels.
-serviteur (Serviteur énervée): Vos parents n’étant pas en état de prendre une décision le concernant, c’est à vous que nous nous en remettons. La loi militaire vous autorise à commander son exécution, mais elle n’est pas obligatoire.
+serviteur (Serviteur énervé): Nous avons capturé un des criminels.
+serviteur (Serviteur normal): Vos parents n’étant pas en état de prendre une décision le concernant, c’est à vous que nous nous en remettons. La loi militaire vous autorise à commander son exécution, mais elle n’est pas obligatoire.
 lexa (Lexa triste): ...
 [clear time="0.0" portraits="false" music="false" background="false" positions="false" style="false"]
 - L'exécuter
 	lexa (Lexa énervée): Exécutez-le.
-	ugo (Ugo énervé): Il n'y a aucun de ces insurgés pour rattraper les autres...
 	ugo (Ugo sourire): Très bon choix, Lexa !
 	Je venais de condamner un homme. Il allait mourir à cause de ma décision.
 	Malgré tout, je ne pouvais pas le laisser vivre après sa tentative de meutre.
