@@ -2,12 +2,15 @@
 
 [ext_resource type="Script" uid="uid://c4tjn8uffwok8" path="res://node_2d.gd" id="1_u7xpb"]
 [ext_resource type="Texture2D" uid="uid://drn3hng5t1mng" path="res://assets/sprites/autres/Tableau_famille_Lexa.PNG" id="2_f74es"]
+[ext_resource type="PackedScene" uid="uid://stc7nt6d1a7n" path="res://assets/scenes/menu_pause.tscn" id="2_r2323"]
+[ext_resource type="Texture2D" uid="uid://daw74mnkmqhpx" path="res://assets/sprites/assetsDialogues/gear4.png" id="3_pvhcu"]
+[ext_resource type="AudioStream" uid="uid://dhh7aq3f8cjag" path="res://assets/switch34.ogg" id="5_yyqw6"]
 
 [node name="Node2D" type="Node2D" unique_id=1487002261]
 script = ExtResource("1_u7xpb")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1640816340]
-layer = 2
+layer = 10
 
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer" unique_id=1048365757]
 visible = false
@@ -18,3 +21,17 @@ mouse_filter = 2
 texture = ExtResource("2_f74es")
 expand_mode = 1
 stretch_mode = 4
+
+[node name="TextureButton" type="TextureButton" parent="CanvasLayer" unique_id=207279883]
+offset_left = 1107.0
+offset_right = 1151.0
+offset_bottom = 45.0
+texture_normal = ExtResource("3_pvhcu")
+
+[node name="MenuPause" parent="CanvasLayer" unique_id=1046594569 instance=ExtResource("2_r2323")]
+
+[node name="SonSurvol" type="AudioStreamPlayer2D" parent="." unique_id=306617535]
+stream = ExtResource("5_yyqw6")
+
+[connection signal="mouse_entered" from="CanvasLayer/TextureButton" to="." method="_on_texture_button_mouse_entered"]
+[connection signal="pressed" from="CanvasLayer/TextureButton" to="." method="_on_texture_button_pressed"]

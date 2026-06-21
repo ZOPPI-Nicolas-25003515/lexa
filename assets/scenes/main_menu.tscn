@@ -4,6 +4,9 @@
 [ext_resource type="Texture2D" uid="uid://dn20y4woi6b5x" path="res://assets/sprites/menu.PNG" id="2_57ux2"]
 [ext_resource type="FontFile" uid="uid://cjqmeakpcqul2" path="res://assets/sprites/jack-of-gears.regular.ttf" id="3_f2xsc"]
 [ext_resource type="Texture2D" uid="uid://bumcoyo47cag" path="res://assets/sprites/assetsDialogues/bulleDialogueSteampunkNoCustom.png" id="4_57ux2"]
+[ext_resource type="AudioStream" uid="uid://dhh7aq3f8cjag" path="res://assets/switch34.ogg" id="5_f2xsc"]
+[ext_resource type="Texture2D" uid="uid://dkye1ra52nl4w" path="res://assets/sprites/assetsDialogues/fenetre_steampunk.png" id="6_xmmar"]
+[ext_resource type="AudioStream" uid="uid://gdlgffmavy60" path="res://assets/sprites/latent-rick-ui-error-denied-sound-2-547856.mp3" id="7_66en2"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ky1qi"]
 content_margin_left = 0.0
@@ -56,9 +59,9 @@ anchor_left = 0.19444445
 anchor_top = 0.5439815
 anchor_right = 0.4140625
 anchor_bottom = 0.55478394
-offset_top = -111.5
+offset_top = -87.5
 offset_right = 138.0
-offset_bottom = 111.5
+offset_bottom = 219.5
 grow_vertical = 2
 offset_transform_enabled = true
 theme_override_constants/separation = 35
@@ -71,6 +74,15 @@ theme_override_fonts/font = ExtResource("3_f2xsc")
 theme_override_font_sizes/font_size = 50
 theme_override_styles/normal = SubResource("StyleBoxTexture_ky1qi")
 text = "COMMENCER"
+
+[node name="Continuer" type="Button" parent="VBoxContainer" unique_id=1733027240]
+layout_mode = 2
+size_flags_horizontal = 5
+size_flags_vertical = 5
+theme_override_fonts/font = ExtResource("3_f2xsc")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxTexture_ky1qi")
+text = "CONTINUER"
 
 [node name="Options" type="Button" parent="VBoxContainer" unique_id=37681386]
 layout_mode = 2
@@ -107,6 +119,38 @@ text = "LEXA"
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="SonSurvol" type="AudioStreamPlayer2D" parent="." unique_id=2029518394]
+stream = ExtResource("5_f2xsc")
+
+[node name="CadreErreur" type="TextureRect" parent="." unique_id=882598052]
+visible = false
+layout_mode = 0
+offset_left = 686.0
+offset_top = 482.0
+offset_right = 1146.0
+offset_bottom = 645.0
+texture = ExtResource("6_xmmar")
+
+[node name="Label" type="Label" parent="CadreErreur" unique_id=742668162]
+layout_mode = 0
+offset_left = -19.0
+offset_top = 51.0
+offset_right = 481.0
+offset_bottom = 136.0
+theme_override_fonts/font = ExtResource("3_f2xsc")
+theme_override_font_sizes/font_size = 40
+text = "AUCUNE SAUVEGARDE 
+		TROUVEE !"
+horizontal_alignment = 1
+
+[node name="SonErreur" type="AudioStreamPlayer2D" parent="." unique_id=82442126]
+stream = ExtResource("7_66en2")
+
+[connection signal="mouse_entered" from="VBoxContainer/Start" to="." method="_on_start_mouse_entered"]
 [connection signal="pressed" from="VBoxContainer/Start" to="." method="_on_start_pressed"]
+[connection signal="mouse_entered" from="VBoxContainer/Continuer" to="." method="_on_continuer_mouse_entered"]
+[connection signal="pressed" from="VBoxContainer/Continuer" to="." method="_on_continuer_pressed"]
+[connection signal="mouse_entered" from="VBoxContainer/Options" to="." method="_on_options_mouse_entered"]
 [connection signal="pressed" from="VBoxContainer/Options" to="." method="_on_options_pressed"]
+[connection signal="mouse_entered" from="VBoxContainer/Quit" to="." method="_on_quit_mouse_entered"]
 [connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]
