@@ -5,6 +5,7 @@
 [ext_resource type="FontFile" uid="uid://cjqmeakpcqul2" path="res://assets/sprites/jack-of-gears.regular.ttf" id="2_1bfk6"]
 [ext_resource type="Texture2D" uid="uid://bumcoyo47cag" path="res://assets/sprites/assetsDialogues/bulleDialogueSteampunkNoCustom.png" id="4_1bfk6"]
 [ext_resource type="AudioStream" uid="uid://dhh7aq3f8cjag" path="res://assets/switch34.ogg" id="5_ehycp"]
+[ext_resource type="AudioStream" uid="uid://cy1jcarbjwah1" path="res://sons/cfl_turningpages-cello-standoff-lofi-464431.mp3" id="6_fbxol"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_fbxol"]
 content_margin_left = 0.0
@@ -108,6 +109,12 @@ vertical_alignment = 1
 
 [node name="SonSurvol" type="AudioStreamPlayer2D" parent="." unique_id=961387652]
 stream = ExtResource("5_ehycp")
+
+[node name="MusiqueFond" type="AudioStreamPlayer2D" parent="." unique_id=494344456]
+stream = ExtResource("6_fbxol")
+volume_db = -69.215
+pitch_scale = 0.62
+autoplay = true
 
 [connection signal="mouse_entered" from="VBoxContainer/BtnPleinEcran" to="." method="_on_btn_plein_ecran_mouse_entered"]
 [connection signal="pressed" from="VBoxContainer/BtnPleinEcran" to="." method="_on_btn_plein_ecran_pressed"]
