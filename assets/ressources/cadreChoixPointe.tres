@@ -1,6 +1,6 @@
 [gd_resource type="StyleBoxTexture" format=3 uid="uid://kmm5jc3upwpk"]
 
-[ext_resource type="Texture2D" uid="uid://btihvybhst0ie" path="res://assets/sprites/assetsDialogues/cadreChoixPointe.png" id="1_ux44r"]
+[ext_resource type="Texture2D" uid="uid://bx0qov45l3hhu" path="res://assets/sprites/assetsDialogues/cadreChoix.png" id="1_ux44r"]
 
 [resource]
 content_margin_left = 0.0
@@ -8,4 +8,8 @@ content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
 texture = ExtResource("1_ux44r")
-region_rect = Rect2(0, 0, 104, 28)
+texture_margin_left = 6.3726153
+texture_margin_top = 5.6372614
+texture_margin_right = 7.8676767
+texture_margin_bottom = 5.0
+region_rect = Rect2(0, 0, 86.51683, 24.990799)

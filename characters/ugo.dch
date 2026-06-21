@@ -19,7 +19,7 @@
 &"portraits": {
 "Ugo normal": {
 "export_overrides": {
-"image": "\"res://assets/sprites/personnages/ugo/ugoIllustration.png\""
+"image": "\"res://assets/sprites/personnages/ugo/Ugo_neutre.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),

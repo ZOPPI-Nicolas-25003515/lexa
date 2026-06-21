@@ -10,6 +10,7 @@ serviteur (Serviteur triste): C’est probable.
 serviteur (Serviteur énervée): Nous avons capturé un des criminels.
 serviteur (Serviteur énervée): Vos parents n’étant pas en état de prendre une décision le concernant, c’est à vous que nous nous en remettons. La loi militaire vous autorise à commander son exécution, mais elle n’est pas obligatoire.
 lexa (Lexa triste): ...
+[clear time="0.0" portraits="false" music="false" background="false" positions="false" style="false"]
 - L'exécuter
 	lexa (Lexa énervée): Exécutez-le.
 	ugo (Ugo énervé): Il n'y a aucun de ces insurgés pour rattraper les autres...
@@ -31,4 +32,4 @@ lexa (Lexa triste): ...
 	lexa (Lexa énervée): Réponds à la question.
 	revolutionnaire (Revolutionnaire neutre): C’est la seule réponse que j’ai à donner.
 	set {RevolutionnairePrisonnier} = true
-FIN DE LA DEMO !
+	FIN DE LA DEMO !
