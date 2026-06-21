@@ -32,4 +32,5 @@ lexa (Lexa triste): ...
 	lexa (Lexa énervée): Réponds à la question.
 	revolutionnaire (Revolutionnaire neutre): C’est la seule réponse que j’ai à donner.
 	set {RevolutionnairePrisonnier} = true
+	[clear time="0.0" music="false" background="false" positions="false" style="false"]
 	FIN DE LA DEMO !

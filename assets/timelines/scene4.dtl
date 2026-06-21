@@ -21,6 +21,9 @@ lexa (Lexa base): ...
 	naelle (Naelle triste): Je suis là pour toi, tu le sais, n'est ce pas ?
 	naelle (Naelle sourire): Comme toujours.
 	lexa (Lexa souriante): Je sais, merci pour tout Naëlle.
+	if {PrendrePhoto} == true:
+		lexa (Lexa souriante): Si tu veux, je te montre sa tête quand il était petit...
+		naelle (Naelle sourire): Vendu !
 	set {NaelleSaitPourAxel} = true
 - Se taire
 	naelle (Naelle normal): Tu caches quelque chose.
@@ -29,4 +32,5 @@ lexa (Lexa base): ...
 	lexa (Lexa triste): C’est rien, je me prends la tête pour des futilités.
 	naelle (Naelle énervée): Ça ne te ressemble pas.
 	lexa (Lexa normal): Je fais juste du tri dans ma tête.
+[clear time="0.0" music="false" background="false" positions="false" style="false"]
 jump scene5/
