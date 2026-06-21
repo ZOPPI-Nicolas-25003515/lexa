@@ -1,0 +1,6 @@
+[gd_resource type="StyleBoxTexture" format=3 uid="uid://1xkefmavflss"]
+
+[ext_resource type="Texture2D" uid="uid://bumcoyo47cag" path="res://assets/sprites/assetsDialogues/bulleDialogueSteampunkNoCustom.png" id="1_ag3u7"]
+
+[resource]
+texture = ExtResource("1_ag3u7")
