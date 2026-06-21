@@ -12,6 +12,7 @@ Mère \: Lexa ! Les invités arrivent dans cinq minutes !
 lexa: (Pourquoi criait-elle ? Il n'y avait pas à avoir autant de pression...)
 [style name="vn"]
 lexa: J'ai entendu, j'arrive.
+[clear time="0.0" portraits="false" music="false" background="false" positions="false" style="false"]
 - prendre la peinture
 	[signal arg="montrer_photo"]
 	[wait time="1.0"]
@@ -20,7 +21,7 @@ lexa: J'ai entendu, j'arrive.
 	[signal arg="enlever_photo"]
 	lexa (Lexa base): ça suffit pour aujourd'hui.
 	[style name="vnSansNom"]
-	lexa (Lexa normal): Je cacha la peinture sous ma veste et partis dans ma chambre.
+	lexa (Lexa normal): Je cachai la peinture sous ma veste et partis dans ma chambre.
 	[style name="vn"]
 	[background arg="res://assets/sprites/fonts/chambre.jpg" fade="2.0" transition="Push Down" wait="true"]
 	lexa (Lexa normal): La peinture sera mieux cachée ici, dans mon tiroir. Maintenant, allons rejoindre nos très chers invités !

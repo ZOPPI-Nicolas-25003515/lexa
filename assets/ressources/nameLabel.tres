@@ -3,9 +3,11 @@
 [ext_resource type="Texture2D" uid="uid://bcdrck27x20n0" path="res://assets/sprites/assetsDialogues/labelTexte.png" id="1_0hbxe"]
 
 [resource]
-content_margin_left = 0.0
-content_margin_top = 0.0
-content_margin_right = 0.0
+content_margin_left = 30.0
+content_margin_top = 22.0
+content_margin_right = 50.0
 content_margin_bottom = 0.0
 texture = ExtResource("1_0hbxe")
+texture_margin_left = 30.0
+texture_margin_right = 60.0
 region_rect = Rect2(4, 0, 104, 44)
