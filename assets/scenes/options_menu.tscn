@@ -110,10 +110,8 @@ vertical_alignment = 1
 [node name="SonSurvol" type="AudioStreamPlayer2D" parent="." unique_id=961387652]
 stream = ExtResource("5_ehycp")
 
-[node name="MusiqueFond" type="AudioStreamPlayer2D" parent="." unique_id=494344456]
+[node name="MusiqueFond" type="AudioStreamPlayer2D" parent="." unique_id=264561229]
 stream = ExtResource("6_fbxol")
-volume_db = -69.215
-pitch_scale = 0.62
 autoplay = true
 
 [connection signal="mouse_entered" from="VBoxContainer/BtnPleinEcran" to="." method="_on_btn_plein_ecran_mouse_entered"]
