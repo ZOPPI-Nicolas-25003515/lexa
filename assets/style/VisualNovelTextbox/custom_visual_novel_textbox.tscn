@@ -10,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://b0rpqfg4fhebk" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/next.svg" id="6_uch03"]
 [ext_resource type="Script" uid="uid://bak74s0kcr0ao" path="res://addons/dialogic/Modules/Text/node_name_label.gd" id="7_bi7sh"]
 [ext_resource type="StyleBox" uid="uid://m7gyepkysu83" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_name_label_panel.tres" id="9_yg8ig"]
+[ext_resource type="FontFile" uid="uid://cjqmeakpcqul2" path="res://assets/sprites/jack-of-gears.regular.ttf" id="10_cwktr"]
 
 [sub_resource type="Animation" id="Animation_au0a2"]
 length = 0.001
@@ -211,8 +212,6 @@ corner_radius_top_right = 5
 corner_radius_bottom_right = 5
 corner_radius_bottom_left = 5
 
-[sub_resource type="FontVariation" id="FontVariation_v8y64"]
-
 [node name="VN_TextboxLayer" type="Control" unique_id=714952497]
 layout_mode = 3
 anchors_preset = 15
@@ -371,7 +370,7 @@ metadata/_edit_group_ = true
 unique_name_in_owner = true
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = SubResource("FontVariation_v8y64")
+theme_override_fonts/font = ExtResource("10_cwktr")
 theme_override_font_sizes/font_size = 15
 text = "S"
 script = ExtResource("7_bi7sh")
