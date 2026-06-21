@@ -1,3 +1,4 @@
+audio "res://sons/cfl_turningpages-tactical-pause-lofi-464440.mp3"
 [background arg="res://assets/sprites/fonts/grenier.jpg" fade="0.0"]
 [style name="vn"]
 De nombreux cartons étaient ouverts autour de moi.

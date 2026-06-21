@@ -7,6 +7,7 @@
 [ext_resource type="AudioStream" uid="uid://dhh7aq3f8cjag" path="res://assets/switch34.ogg" id="5_f2xsc"]
 [ext_resource type="Texture2D" uid="uid://dkye1ra52nl4w" path="res://assets/sprites/assetsDialogues/fenetre_steampunk.png" id="6_xmmar"]
 [ext_resource type="AudioStream" uid="uid://gdlgffmavy60" path="res://assets/sprites/latent-rick-ui-error-denied-sound-2-547856.mp3" id="7_66en2"]
+[ext_resource type="AudioStream" uid="uid://cy1jcarbjwah1" path="res://sons/cfl_turningpages-cello-standoff-lofi-464431.mp3" id="8_66en2"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ky1qi"]
 content_margin_left = 0.0
@@ -145,6 +146,10 @@ horizontal_alignment = 1
 
 [node name="SonErreur" type="AudioStreamPlayer2D" parent="." unique_id=82442126]
 stream = ExtResource("7_66en2")
+
+[node name="MusiqueFond" type="AudioStreamPlayer2D" parent="." unique_id=212598680]
+stream = ExtResource("8_66en2")
+autoplay = true
 
 [connection signal="mouse_entered" from="VBoxContainer/Start" to="." method="_on_start_mouse_entered"]
 [connection signal="pressed" from="VBoxContainer/Start" to="." method="_on_start_pressed"]
