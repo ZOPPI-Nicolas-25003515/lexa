@@ -19,8 +19,9 @@ lexa (Lexa base): ...
 	naelle (Naelle triste): Tu comptes faire quoi ?
 	lexa (Lexa triste): Je n’ai pas encore décidé.
 	naelle (Naelle triste): Je suis là pour toi, tu le sais, n'est ce pas ?
-	naelle (Naelle sourire):  Comme toujours.
+	naelle (Naelle sourire): Comme toujours.
 	lexa (Lexa souriante): Je sais, merci pour tout Naëlle.
+	set {NaelleSaitPourAxel} = true
 - Se taire
 	naelle (Naelle normal): Tu caches quelque chose.
 	lexa (Lexa énervée): Non.

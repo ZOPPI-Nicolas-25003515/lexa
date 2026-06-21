@@ -20,5 +20,13 @@ Des rires s’élèvent, simplement par politesse.
 lexa (Lexa énervée): (*chuchote) Même ça, ils le changent ?
 ugo (Ugo normal): C’est leur métier.
 duc (Duc sourire): À leur avenir plus que prometteur !
-La salle entière s'exclama, nous félcitant. Nous les remerciâmes en souriant. Je n’arrivais même plus à savoir lesquels de nous étaient les hypocrites de l’histoire. Tout était faux et le pire dans tout ça était qu'aucun ici présent n'était convaincu du contraire. Non, tout le monde savait que cela n'était pas vrai, mais vivait dans cette réalité fictive.
-jump scene4/
+La salle entière s'exclama, nous félcitant. Nous les remerciâmes en souriant. Je n’arrivais même plus à savoir lesquels de nous étaient les hypocrites de l’histoire.
+Tout était faux et le pire dans tout ça était qu'aucun ici présent n'était convaincu du contraire. Non, tout le monde savait que cela n'était pas vrai, mais vivait dans cette réalité fictive.
+if {PrendrePhoto} == true:
+	jump scene4/
+else:
+	naelle (Naelle sourire): Lexa !
+	lexa (Lexa chokbar): Oui ?
+	naelle (Naelle triste): Tu te sens bien ?
+	lexa (Lexa souriante): Pour l'instant, oui...
+	jump scene5/

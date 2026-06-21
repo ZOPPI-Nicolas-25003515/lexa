@@ -11,7 +11,8 @@ layer = 2
 
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer" unique_id=1048365757]
 visible = false
-offset_right = 1146.0
+offset_left = 221.0
+offset_right = 1154.0
 offset_bottom = 648.0
 mouse_filter = 2
 texture = ExtResource("2_f74es")

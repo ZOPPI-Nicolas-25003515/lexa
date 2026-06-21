@@ -3,7 +3,7 @@ SCENE 5 \: L'ATTAQUE
 J’étais dans ma demeure avec Ugo et mes deux amis. Nous sommes partis du bal un peu avant nos parents car l’atmosphère commençait à nous irriter.
 Nous avons prétexté avoir un évènement important pour les préparatifs du mariage demain et qu’il fallait nous reposer pour pouvoir être d’un esprit léger et paisible pour le lendemain.
 serviteur (Serviteur triste): Vos parents ! Ils ont été attaqués !
-lexa (Lexa énervée): Que s’est-il passé ? Comment vont-ils ?!
+lexa (Lexa chokbar): Que s’est-il passé ? Comment vont-ils ?!
 serviteur (Serviteur triste): Ils sont vivants, mais pas sans blessures. Les insurgés ont provoqué un incendie dans l'entrepôt dans lequel ils se trouvaient.
 lexa (Lexa énervée): Ils étaient ciblés ?
 serviteur (Serviteur triste): C’est probable.
@@ -30,4 +30,5 @@ lexa (Lexa triste): ...
 	revolutionnaire: Je n'ai pas d’explication à donner à quelqu’un comme toi.
 	lexa (Lexa énervée): Réponds à la question.
 	revolutionnaire (Revolutionnaire neutre): C’est la seule réponse que j’ai à donner.
+	set {RevolutionnairePrisonnier} = true
 FIN DE LA DEMO !
