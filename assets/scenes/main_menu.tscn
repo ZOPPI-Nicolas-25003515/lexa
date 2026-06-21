@@ -1,9 +1,35 @@
 [gd_scene format=3 uid="uid://cnp8o7xlx7plp"]
 
 [ext_resource type="Script" uid="uid://h333xk30b8hg" path="res://main_menu.gd" id="1_uu6ob"]
+[ext_resource type="Texture2D" uid="uid://dn20y4woi6b5x" path="res://assets/sprites/menu.PNG" id="2_57ux2"]
+[ext_resource type="FontFile" uid="uid://cjqmeakpcqul2" path="res://assets/sprites/jack-of-gears.regular.ttf" id="3_f2xsc"]
+[ext_resource type="Texture2D" uid="uid://blgxx8wwb4ep5" path="res://assets/sprites/bulleDialogueSteampunkNoCustom.png" id="4_v71do"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v1ppo"]
-bg_color = Color(0.5882353, 0.4627451, 0.015686275, 1)
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ky1qi"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+texture = ExtResource("4_v71do")
+texture_margin_left = 20.0
+texture_margin_top = 20.0
+texture_margin_right = 20.0
+texture_margin_bottom = 20.0
+expand_margin_top = 20.0
+expand_margin_bottom = 15.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4kcas"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+texture = ExtResource("4_v71do")
+texture_margin_left = 20.0
+texture_margin_top = 20.0
+texture_margin_right = 20.0
+texture_margin_bottom = 20.0
+expand_margin_top = 20.0
+expand_margin_bottom = 15.0
 
 [node name="MainMenu" type="Control" unique_id=469839758]
 layout_mode = 3
@@ -14,51 +40,73 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_uu6ob")
 
-[node name="Panel" type="Panel" parent="." unique_id=1641873174]
-layout_mode = 0
-offset_left = -41.0
-offset_top = -20.0
-offset_right = 1240.0
-offset_bottom = 686.0
-theme_override_styles/panel = SubResource("StyleBoxFlat_v1ppo")
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1323815598]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_57ux2")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=357081772]
 layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -228.5
-offset_top = -24.0
-offset_right = 228.5
-offset_bottom = 134.0
-grow_horizontal = 2
+anchors_preset = -1
+anchor_left = 0.19444445
+anchor_top = 0.5439815
+anchor_right = 0.4140625
+anchor_bottom = 0.55478394
+offset_top = -111.5
+offset_right = 138.0
+offset_bottom = 111.5
 grow_vertical = 2
+offset_transform_enabled = true
+theme_override_constants/separation = 35
 
 [node name="Start" type="Button" parent="VBoxContainer" unique_id=1174948834]
 layout_mode = 2
+size_flags_horizontal = 5
+size_flags_vertical = 5
+theme_override_fonts/font = ExtResource("3_f2xsc")
 theme_override_font_sizes/font_size = 50
-text = "Start"
+theme_override_styles/normal = SubResource("StyleBoxTexture_ky1qi")
+text = "COMMENCER"
+
+[node name="Options" type="Button" parent="VBoxContainer" unique_id=37681386]
+layout_mode = 2
+size_flags_horizontal = 5
+size_flags_vertical = 5
+theme_override_fonts/font = ExtResource("3_f2xsc")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxTexture_ky1qi")
+text = "OPTIONS"
 
 [node name="Quit" type="Button" parent="VBoxContainer" unique_id=358862831]
 layout_mode = 2
+size_flags_horizontal = 5
+size_flags_vertical = 5
+theme_override_fonts/font = ExtResource("3_f2xsc")
 theme_override_font_sizes/font_size = 50
-text = "Quit"
+theme_override_styles/normal = SubResource("StyleBoxTexture_4kcas")
+text = "QUITTER"
 
 [node name="Label" type="Label" parent="." unique_id=1390659575]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -120.0
-offset_top = 69.0
-offset_right = 120.0
-offset_bottom = 209.0
+offset_left = -259.0
+offset_top = 125.0
+offset_right = -46.0
+offset_bottom = 225.0
 grow_horizontal = 2
 theme_override_colors/font_color = Color(0.91764706, 1, 0.8862745, 1)
+theme_override_fonts/font = ExtResource("3_f2xsc")
 theme_override_font_sizes/font_size = 100
 text = "LEXA"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [connection signal="pressed" from="VBoxContainer/Start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="VBoxContainer/Options" to="." method="_on_options_pressed"]
 [connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]
