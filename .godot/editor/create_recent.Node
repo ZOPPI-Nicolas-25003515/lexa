@@ -1,7 +1,11 @@
+Label
+HSlider
+VBoxContainer
 TextureRect
+Control
+Node
 CanvasLayer
 DialogicBackground
 DialogicNode_BackgroundHolder
 ColorRect
-Control
 MarginContainer
