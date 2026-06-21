@@ -26,6 +26,15 @@
 "scale": 1.0,
 "scene": ""
 },
+"Lexa chokbar": {
+"export_overrides": {
+"image": "\"res://assets/sprites/personnages/lexa/Lexa_choque.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
 "Lexa souriante": {
 "export_overrides": {
 "image": "\"res://assets/sprites/personnages/lexa/Lexa_sourire.png\""

@@ -15,14 +15,16 @@ lexa: J'ai entendu, j'arrive.
 - prendre la peinture
 	[signal arg="montrer_photo"]
 	[wait time="1.0"]
+	[wait_input]
 	...
 	[signal arg="enlever_photo"]
-	lexa (Lexa normal): ça suffit pour aujourd'hui.
+	lexa (Lexa base): ça suffit pour aujourd'hui.
 	[style name="vnSansNom"]
 	lexa (Lexa normal): Je cacha la peinture sous ma veste et partis dans ma chambre.
 	[style name="vn"]
 	[background arg="res://assets/sprites/fonts/chambre.jpg" fade="2.0" transition="Push Down" wait="true"]
 	lexa (Lexa normal): La peinture sera mieux cachée ici, dans mon tiroir. Maintenant, allons rejoindre nos très chers invités !
+	set {PrendrePhoto} = true
 - Laisser la peinture dans le carton
 	lexa (Lexa énervée): Pas maintenant.
 	Je referma soigneusement le carton et rejoignis ma mère dans le salon. Les invités venaient de franchir la porte de notre demeure.

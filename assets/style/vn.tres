@@ -38,10 +38,13 @@ overrides = {
 "box_panel": "\"res://assets/ressources/boiteDialogue.tres\"",
 "box_size": "Vector2(700, 300)",
 "name_label_box_modulate": "Color(1, 1, 1, 1)",
-"name_label_box_offset": "Vector2(70, 40)",
+"name_label_box_offset": "Vector2(74, 22)",
 "name_label_box_panel": "\"res://assets/ressources/nameLabel.tres\"",
 "name_label_box_use_global_color": "false",
-"name_label_font": "\"res://assets/ressources/nameLabel.tres\""
+"name_label_font": "\"res://assets/ressources/nameLabel.tres\"",
+"next_indicator_texture": "\"res://assets/sprites/assetsDialogues/losange.png\"",
+"text_size": "20.0",
+"text_use_global_size": "false"
 }
 
 [sub_resource type="Resource" id="Resource_tr1dk"]
