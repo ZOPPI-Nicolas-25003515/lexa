@@ -13,6 +13,7 @@ lexa (Lexa énervée): C'est quoi ça ?
 [wait_input]
 ...
 [signal arg="enlever_photo"]
+[wait time="0.2"]
 Mère \: Lexa ! Les invités arrivent dans cinq minutes !
 [style name="vnSansNom"]
 lexa: (Pourquoi criait-elle ? Il n'y avait pas à avoir autant de pression...)
