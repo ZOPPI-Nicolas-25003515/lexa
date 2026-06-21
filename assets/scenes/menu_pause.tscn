@@ -1,0 +1,135 @@
+[gd_scene format=3 uid="uid://stc7nt6d1a7n"]
+
+[ext_resource type="Script" uid="uid://cg7w813pecc7d" path="res://assets/scenes/menu_pause.gd" id="1_ralww"]
+[ext_resource type="Texture2D" uid="uid://dn20y4woi6b5x" path="res://assets/sprites/menu.PNG" id="2_7py8m"]
+[ext_resource type="FontFile" uid="uid://cjqmeakpcqul2" path="res://assets/sprites/jack-of-gears.regular.ttf" id="3_2fnbp"]
+[ext_resource type="Texture2D" uid="uid://bumcoyo47cag" path="res://assets/sprites/assetsDialogues/bulleDialogueSteampunkNoCustom.png" id="4_5mdeu"]
+[ext_resource type="AudioStream" uid="uid://dhh7aq3f8cjag" path="res://assets/switch34.ogg" id="5_hmpqr"]
+[ext_resource type="Texture2D" uid="uid://dkye1ra52nl4w" path="res://assets/sprites/assetsDialogues/fenetre_steampunk.png" id="6_7py8m"]
+[ext_resource type="AudioStream" uid="uid://dpfj3ln1sv8ic" path="res://assets/sprites/soundshelfstudio-ui-success-chime-513565.mp3" id="7_2fnbp"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_n5e2p"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+texture = ExtResource("4_5mdeu")
+texture_margin_left = 20.0
+texture_margin_top = 20.0
+texture_margin_right = 20.0
+texture_margin_bottom = 20.0
+expand_margin_top = 20.0
+expand_margin_bottom = 15.0
+
+[node name="MenuPause" type="CanvasLayer" unique_id=1046594569]
+layer = 10
+visible = false
+script = ExtResource("1_ralww")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=2078492637]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_7py8m")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=543458953]
+anchors_preset = -1
+anchor_left = 0.19444445
+anchor_top = 0.5439815
+anchor_right = 0.4140625
+anchor_bottom = 0.55478394
+offset_top = -87.5
+offset_right = 138.0
+offset_bottom = 219.5
+grow_vertical = 2
+offset_transform_enabled = true
+theme_override_constants/separation = 35
+
+[node name="BtnSauvegarder" type="Button" parent="VBoxContainer" unique_id=551577740]
+layout_mode = 2
+size_flags_horizontal = 5
+size_flags_vertical = 5
+theme_override_fonts/font = ExtResource("3_2fnbp")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxTexture_n5e2p")
+text = "SAUVEGARDER"
+
+[node name="Label2" type="Label" parent="VBoxContainer" unique_id=1643637504]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_2fnbp")
+theme_override_font_sizes/font_size = 40
+text = "VOLUME"
+horizontal_alignment = 1
+
+[node name="HSlider" type="HSlider" parent="VBoxContainer" unique_id=1089815836]
+layout_mode = 2
+min_value = -30.0
+max_value = 0.0
+
+[node name="BtnReprendre" type="Button" parent="VBoxContainer" unique_id=159118350]
+layout_mode = 2
+size_flags_horizontal = 5
+size_flags_vertical = 5
+theme_override_fonts/font = ExtResource("3_2fnbp")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxTexture_n5e2p")
+text = "REPRENDRE"
+
+[node name="BtnQuitter" type="Button" parent="VBoxContainer" unique_id=670774378]
+layout_mode = 2
+size_flags_horizontal = 5
+size_flags_vertical = 5
+theme_override_fonts/font = ExtResource("3_2fnbp")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxTexture_n5e2p")
+text = "MENU PRINCIPAL"
+
+[node name="Label" type="Label" parent="." unique_id=1980764223]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -259.0
+offset_top = 125.0
+offset_right = -46.0
+offset_bottom = 225.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.91764706, 1, 0.8862745, 1)
+theme_override_fonts/font = ExtResource("3_2fnbp")
+theme_override_font_sizes/font_size = 100
+text = "PAUSE"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SonSurvol" type="AudioStreamPlayer2D" parent="." unique_id=2009529136]
+stream = ExtResource("5_hmpqr")
+
+[node name="CadreSauvegarde" type="TextureRect" parent="." unique_id=1166674491]
+visible = false
+offset_left = 686.0
+offset_top = 482.0
+offset_right = 1146.0
+offset_bottom = 645.0
+texture = ExtResource("6_7py8m")
+
+[node name="Label" type="Label" parent="CadreSauvegarde" unique_id=2000846673]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 67.0
+offset_right = 487.0
+offset_bottom = 118.0
+theme_override_fonts/font = ExtResource("3_2fnbp")
+theme_override_font_sizes/font_size = 40
+text = "PARTIE SAUVEGARDEE !"
+
+[node name="SonValidation" type="AudioStreamPlayer2D" parent="." unique_id=1284273095]
+stream = ExtResource("7_2fnbp")
+
+[connection signal="mouse_entered" from="VBoxContainer/BtnSauvegarder" to="." method="_on_btn_sauvegarder_mouse_entered"]
+[connection signal="pressed" from="VBoxContainer/BtnSauvegarder" to="." method="_on_btn_sauvegarder_pressed"]
+[connection signal="value_changed" from="VBoxContainer/HSlider" to="." method="_on_h_slider_value_changed"]
+[connection signal="mouse_entered" from="VBoxContainer/BtnReprendre" to="." method="_on_btn_reprendre_mouse_entered"]
+[connection signal="pressed" from="VBoxContainer/BtnReprendre" to="." method="_on_btn_reprendre_pressed"]
+[connection signal="mouse_entered" from="VBoxContainer/BtnQuitter" to="." method="_on_btn_quitter_mouse_entered"]
+[connection signal="pressed" from="VBoxContainer/BtnQuitter" to="." method="_on_btn_quitter_pressed"]

@@ -16,3 +16,11 @@ func _on_h_slider_value_changed(value: float) -> void:
 
 func _on_btn_retour_pressed() -> void:
 	get_tree().change_scene_to_file("res://assets/scenes/main_menu.tscn")
+
+
+func _on_btn_plein_ecran_mouse_entered() -> void:
+	$SonSurvol.play()
+
+
+func _on_btn_retour_mouse_entered() -> void:
+	$SonSurvol.play()
