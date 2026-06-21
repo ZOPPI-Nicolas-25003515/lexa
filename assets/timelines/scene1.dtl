@@ -7,6 +7,11 @@ lexa (Lexa triste): Ce carton contenait plusieurs documents importants. Toute ma
 lexa (Lexa triste): Deux enfants ? Comment ça des jumeaux ?
 lexa (Lexa triste): Soudain, une peinture attira mon attention.
 lexa (Lexa énervée): C'est quoi ça ?
+[signal arg="montrer_photo"]
+[wait time="1.0"]
+[wait_input]
+...
+[signal arg="enlever_photo"]
 Mère \: Lexa ! Les invités arrivent dans cinq minutes !
 [style name="vnSansNom"]
 lexa: (Pourquoi criait-elle ? Il n'y avait pas à avoir autant de pression...)
@@ -14,11 +19,7 @@ lexa: (Pourquoi criait-elle ? Il n'y avait pas à avoir autant de pression...)
 lexa: J'ai entendu, j'arrive.
 [clear time="0.0" portraits="false" music="false" background="false" positions="false" style="false"]
 - prendre la peinture
-	[signal arg="montrer_photo"]
-	[wait time="1.0"]
-	[wait_input]
-	...
-	[signal arg="enlever_photo"]
+	Vous prenez la peinture.
 	lexa (Lexa base): ça suffit pour aujourd'hui.
 	[style name="vnSansNom"]
 	lexa (Lexa normal): Je cachai la peinture sous ma veste et partis dans ma chambre.
@@ -29,4 +30,5 @@ lexa: J'ai entendu, j'arrive.
 - Laisser la peinture dans le carton
 	lexa (Lexa énervée): Pas maintenant.
 	Je referma soigneusement le carton et rejoignis ma mère dans le salon. Les invités venaient de franchir la porte de notre demeure.
+[clear time="0.0" music="false" background="false" positions="false" style="false"]
 jump scene2/
