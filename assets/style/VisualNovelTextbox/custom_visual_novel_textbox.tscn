@@ -238,7 +238,7 @@ autoplay = &"RESET"
 script = ExtResource("2_xy7a2")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1206564464]
-layer = 3
+layer = 10
 
 [node name="Anchor" type="Control" parent="CanvasLayer" unique_id=617377673]
 layout_mode = 3
