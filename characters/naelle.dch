@@ -10,43 +10,43 @@
 "style": "",
 "suffix": ""
 },
-&"default_portrait": "Lexa base",
+&"default_portrait": "Naelle normal",
 &"description": "",
-&"display_name": "Lexa",
+&"display_name": "Naelle",
 &"mirror": false,
 &"nicknames": [""],
-&"offset": Vector2(-100, 0),
+&"offset": Vector2(0, 0),
 &"portraits": {
-"Lexa base": {
+"Naelle normal": {
 "export_overrides": {
-"image": "\"res://assets/sprites/personnages/lexa/Lexa_neutre.png\""
-},
-"mirror": false,
-"offset": Vector2(0, 0),
-"scale": 1.0,
-"scene": ""
-},
-"Lexa souriante": {
-"export_overrides": {
-"image": "\"res://assets/sprites/personnages/lexa/Lexa_sourire.png\""
+"image": "\"res://assets/sprites/personnages/naelle/Naelle_neutre.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 },
-"Lexa triste": {
+"Naelle sourire": {
 "export_overrides": {
-"image": "\"res://assets/sprites/personnages/lexa/Lexa_triste.png\""
+"image": "\"res://assets/sprites/personnages/naelle/Naelle_sourire.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 },
-"Lexa énervée": {
+"Naelle triste": {
 "export_overrides": {
-"image": "\"res://assets/sprites/personnages/lexa/Lexa_enerve.png\""
+"image": "\"res://assets/sprites/personnages/naelle/Naelle_triste.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Naelle énervée": {
+"export_overrides": {
+"image": "\"res://assets/sprites/personnages/naelle/Naelle_enerve.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),

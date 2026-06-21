@@ -1,0 +1,24 @@
+[background arg="res://assets/sprites/fonts/bal.jpg" fade="2.0" wait="true"]
+SCENE 3 \: LE BAL
+Une fois entrée dans la salle de bal, je me suis empressée de rejoindre Naëlle et son frère. Ugo restait à mes côtés, près de nos amis.
+Près de nous, le Duc discutait avec les plus hautes familles, dont la mienne et celle de Naëlle et Xavier.
+Sa voix se faisait de plus en plus puissante, comme s’il souhaitait que chaque personne ici présente soit consciente de son pouvoir et de la dominance de ce monde de noble.
+Le regard d’Ugo croisa le mien. Il était fier de sa famille mais une lueur étrange dans ses yeux me fit tiquer. Il semblait … déçu.
+C’est alors que mes parents prirent la parole et étalèrent à leur tour notre richesse. Il y a moins de cinq jours, ils avaient conclu un achat important et ne faisaient qu’en parler à qui peut l’entendre.
+Cet achat n’est, pour moi, pas une chose à féliciter. A cause de cela, le bas peuple se voyait encore être retiré de certains de ses biens.
+Mon sourire se crispa, je devais faire bonne figure, après tout, ce n’était pas la première fois que les choix des nobles ne parurent inconcevables. Cependant, cette fois, c’était de la bouche de mes parents, et cette réflexion me comprima le cœur.
+Ma meilleure amie me regarda, ainsi que son frère. Sans prononcer un seul mot, nous nous étions compris. C’était comme si nous étions les hypocrites de ce monde.
+[style name="vnSansNom"]
+duc (Duc normal): C’est à ce moment précis que le Duc leva son verre, un grand sourire fier aux lèvres. Il regarda son fils à mes côtés, puis ses yeux paternels se posèrent sur moi.
+[style name="vn"]
+duc (Duc sourire): Je vous ai réunis pour annoncer une union prochaine.
+duc (Duc sourire): Celle d’Ugo Santino Donini Romano\
+et Lexa Marielle Von Hohenberg.
+La salle se remplit de murmures.
+Leur lien existe depuis leur enfance.
+Des rires s’élèvent, simplement par politesse.
+lexa (Lexa énervée): (*chuchote) Même ça, ils le changent ?
+ugo (Ugo normal): C’est leur métier.
+duc (Duc sourire): À leur avenir plus que prometteur !
+La salle entière s'exclama, nous félcitant. Nous les remerciâmes en souriant. Je n’arrivais même plus à savoir lesquels de nous étaient les hypocrites de l’histoire. Tout était faux et le pire dans tout ça était qu'aucun ici présent n'était convaincu du contraire. Non, tout le monde savait que cela n'était pas vrai, mais vivait dans cette réalité fictive.
+jump scene4/

@@ -1,6 +1,6 @@
 [gd_resource type="StyleBoxTexture" format=3 uid="uid://coe7dh0ab4ah2"]
 
-[ext_resource type="Texture2D" uid="uid://bk3ga8134m27y" path="res://assets/sprites/fenetre_steampunk.png" id="1_thei6"]
+[ext_resource type="Texture2D" uid="uid://dkye1ra52nl4w" path="res://assets/sprites/assetsDialogues/fenetre_steampunk.png" id="1_thei6"]
 
 [resource]
 content_margin_left = 80.0

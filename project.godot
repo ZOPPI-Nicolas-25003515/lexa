@@ -22,17 +22,28 @@ Dialogic="*uid://ds2q0uclmolvu"
 [dialogic]
 
 directories/dch_directory={
-"lexa": "res://characters/lexa.dch"
+"duc": "res://characters/duc.dch",
+"lexa": "res://characters/lexa.dch",
+"naelle": "res://characters/naelle.dch",
+"revolutionnaire": "res://characters/revolutionnaire.dch",
+"serviteur": "res://characters/serviteur.dch",
+"ugo": "res://characters/ugo.dch",
+"xavier": "res://characters/xavier.dch"
 }
 directories/dtl_directory={
-"timeline1": "res://assets/timelines/timeline1.dtl"
+"scene1": "res://assets/timelines/scene1.dtl",
+"scene2": "res://assets/timelines/scene2.dtl",
+"scene3": "res://assets/timelines/scene3.dtl",
+"scene4": "res://assets/timelines/scene4.dtl",
+"scene5": "res://assets/timelines/scene5.dtl"
 }
 layout/style_directory={
 "": "res://assets/style/vn.tres",
 "rpg": "res://assets/style/rpg.tres",
-"vn": "res://assets/style/vn.tres"
+"vn": "res://assets/style/vn.tres",
+"vnSansNom": "res://assets/style/vnSansNom.tres"
 }
-layout/style_list=["res://assets/style/vn.tres", "res://assets/style/rpg.tres"]
+layout/style_list=["res://assets/style/vn.tres", "res://assets/style/rpg.tres", "res://assets/style/vnSansNom.tres"]
 layout/default_style="res://assets/style/vn.tres"
 glossary/default_case_sensitive=true
 variables={}

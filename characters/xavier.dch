@@ -10,43 +10,43 @@
 "style": "",
 "suffix": ""
 },
-&"default_portrait": "Lexa base",
+&"default_portrait": "Xavier normal",
 &"description": "",
-&"display_name": "Lexa",
+&"display_name": "Xavier",
 &"mirror": false,
 &"nicknames": [""],
-&"offset": Vector2(-100, 0),
+&"offset": Vector2(0, 0),
 &"portraits": {
-"Lexa base": {
+"Xavier normal": {
 "export_overrides": {
-"image": "\"res://assets/sprites/personnages/lexa/Lexa_neutre.png\""
-},
-"mirror": false,
-"offset": Vector2(0, 0),
-"scale": 1.0,
-"scene": ""
-},
-"Lexa souriante": {
-"export_overrides": {
-"image": "\"res://assets/sprites/personnages/lexa/Lexa_sourire.png\""
+"image": "\"res://assets/sprites/personnages/xavier/Xavier_neutre.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 },
-"Lexa triste": {
+"Xavier sourire": {
 "export_overrides": {
-"image": "\"res://assets/sprites/personnages/lexa/Lexa_triste.png\""
+"image": "\"res://assets/sprites/personnages/xavier/Xavier_sourire.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 },
-"Lexa énervée": {
+"Xavier triste": {
 "export_overrides": {
-"image": "\"res://assets/sprites/personnages/lexa/Lexa_enerve.png\""
+"image": "\"res://assets/sprites/personnages/xavier/Xavier_triste.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Xavier énervé": {
+"export_overrides": {
+"image": "\"res://assets/sprites/personnages/xavier/Xavier_enerve.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),

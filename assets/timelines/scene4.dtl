@@ -1,0 +1,31 @@
+[background arg="res://assets/sprites/fonts/bal.jpg" fade="2.0" wait="true"]
+SCENE 4 \: LA DISCUSSION
+naelle (Naelle sourire): Tu fais cette tête quand tu réfléchis trop.
+lexa (Lexa base): Je réfléchis normalement.
+naelle (Naelle normal): T’en as pas l’air.
+lexa (Lexa base): ...
+- Parler du jumeau
+	lexa (Lexa triste): Ce matin j’ai trouvé un document.
+	naelle (Naelle triste): Mauvais début.
+	lexa (Lexa triste): J’ai un frère jumeau.
+	[wait time="2.0"]
+	naelle (Naelle énervée): Excuse moi mais... Tu peux répéter ? Un jumeau ? Toi ?
+	lexa (Lexa triste): Oui...j’ai un frère jumeau nommé Axel et je ne sais pas ce qu’il est devenu.
+	lexa (Lexa triste): Je ne sais même pas s’il est encore en vie.
+	naelle (Naelle triste): Et tes parents, dans tout ça ?
+	lexa (Lexa triste): Ils ne l’ont jamais mentionné.
+	naelle (Naelle énervée): Jamais un enfant pourrait disparaître des souvenirs de ses parents, non ?
+	lexa (Lexa triste): Je sais, Naëlle...
+	naelle (Naelle triste): Tu comptes faire quoi ?
+	lexa (Lexa triste): Je n’ai pas encore décidé.
+	naelle (Naelle triste): Je suis là pour toi, tu le sais, n'est ce pas ?
+	naelle (Naelle sourire):  Comme toujours.
+	lexa (Lexa souriante): Je sais, merci pour tout Naëlle.
+- Se taire
+	naelle (Naelle normal): Tu caches quelque chose.
+	lexa (Lexa énervée): Non.
+	naelle (Naelle énervée): Lexa...
+	lexa (Lexa triste): C’est rien, je me prends la tête pour des futilités.
+	naelle (Naelle énervée): Ça ne te ressemble pas.
+	lexa (Lexa normal): Je fais juste du tri dans ma tête.
+jump scene5/
