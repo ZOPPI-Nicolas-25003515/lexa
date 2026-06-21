@@ -1,6 +1,19 @@
 [gd_scene format=3 uid="uid://d1b2eyv8qrtyh"]
 
 [ext_resource type="Script" uid="uid://c4tjn8uffwok8" path="res://node_2d.gd" id="1_u7xpb"]
+[ext_resource type="Texture2D" uid="uid://drn3hng5t1mng" path="res://assets/sprites/autres/Tableau_famille_Lexa.PNG" id="2_f74es"]
 
 [node name="Node2D" type="Node2D" unique_id=1487002261]
 script = ExtResource("1_u7xpb")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1640816340]
+layer = 2
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer" unique_id=1048365757]
+visible = false
+offset_right = 1146.0
+offset_bottom = 648.0
+mouse_filter = 2
+texture = ExtResource("2_f74es")
+expand_mode = 1
+stretch_mode = 4

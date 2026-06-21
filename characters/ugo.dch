@@ -1,0 +1,58 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+&"_translation_id": "",
+&"color": Color(1, 1, 1, 1),
+&"custom_info": {
+"prefix": "",
+"sound_mood_default": "",
+"sound_moods": {},
+"style": "",
+"suffix": ""
+},
+&"default_portrait": "Ugo normal",
+&"description": "",
+&"display_name": "Ugo",
+&"mirror": false,
+&"nicknames": [""],
+&"offset": Vector2(0, 0),
+&"portraits": {
+"Ugo normal": {
+"export_overrides": {
+"image": "\"res://assets/sprites/personnages/ugo/ugoIllustration.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Ugo sourire": {
+"export_overrides": {
+"image": "\"res://assets/sprites/personnages/ugo/Ugo_sourire.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Ugo triste": {
+"export_overrides": {
+"image": "\"res://assets/sprites/personnages/ugo/Ugo_triste.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Ugo énervé": {
+"export_overrides": {
+"image": "\"res://assets/sprites/personnages/ugo/Ugo_enerve.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+&"scale": 1.0
+}

@@ -1,8 +1,11 @@
 [gd_resource type="StyleBoxTexture" format=3 uid="uid://kmm5jc3upwpk"]
 
-[ext_resource type="Texture2D" uid="uid://clgyotsqfsumq" path="res://assets/sprites/cadreChoixPointe.png" id="1_ux44r"]
+[ext_resource type="Texture2D" uid="uid://btihvybhst0ie" path="res://assets/sprites/assetsDialogues/cadreChoixPointe.png" id="1_ux44r"]
 
 [resource]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
 texture = ExtResource("1_ux44r")
-texture_margin_right = 32.0
-region_rect = Rect2(0, 0, 116, 28)
+region_rect = Rect2(0, 0, 104, 28)

@@ -1,0 +1,29 @@
+[background arg="res://assets/sprites/fonts/grenier.jpg" fade="0.0"]
+[style name="vn"]
+De nombreux cartons étaient ouverts autour de moi.
+lexa (Lexa énervée): Ils auraient pu les classer.
+lexa: (Tiens, c'est quoi ce carton ? Des souvenirs ?)
+lexa (Lexa triste): Ce carton contenait plusieurs documents importants. Toute ma jeunesse était retranscrite ici. Je lus quelques papiers.
+lexa (Lexa triste): Deux enfants ? Comment ça des jumeaux ?
+lexa (Lexa triste): Soudain, une peinture attira mon attention.
+lexa (Lexa énervée): C'est quoi ça ?
+Mère \: Lexa ! Les invités arrivent dans cinq minutes !
+[style name="vnSansNom"]
+lexa: (Pourquoi criait-elle ? Il n'y avait pas à avoir autant de pression...)
+[style name="vn"]
+lexa: J'ai entendu, j'arrive.
+- prendre la peinture
+	[signal arg="montrer_photo"]
+	[wait time="1.0"]
+	...
+	[signal arg="enlever_photo"]
+	lexa (Lexa normal): ça suffit pour aujourd'hui.
+	[style name="vnSansNom"]
+	lexa (Lexa normal): Je cacha la peinture sous ma veste et partis dans ma chambre.
+	[style name="vn"]
+	[background arg="res://assets/sprites/fonts/chambre.jpg" fade="2.0" transition="Push Down" wait="true"]
+	lexa (Lexa normal): La peinture sera mieux cachée ici, dans mon tiroir. Maintenant, allons rejoindre nos très chers invités !
+- Laisser la peinture dans le carton
+	lexa (Lexa énervée): Pas maintenant.
+	Je referma soigneusement le carton et rejoignis ma mère dans le salon. Les invités venaient de franchir la porte de notre demeure.
+jump scene2/

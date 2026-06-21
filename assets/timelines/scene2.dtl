@@ -1,0 +1,21 @@
+[background arg="res://assets/sprites/fonts/salon.jpg" fade="2.0" wait="true"]
+SCENE 2 \: L'UNION PROCHAINE
+Cela fait maintenant une heure que les invités étaient arrivés. Nous avions trinqué et avions échangé des formalités comme s’ils ne savaient pas pourquoi ils avaient été conviés.
+Nos invités n’étaient qu’autre que Ugo Santino Donini Romano, et ses très chers parents.
+Ces derniers étaient les plus fidèles amis de mes parents, c’est donc depuis mon arrivée dans cette famille que je grandis avec Ugo dans l’unique but de me fiancer dès que possible.
+Père \: Ce soir marque une étape importante.
+[style name="vnSansNom"]
+Ce ton neutre me fit lever les yeux au ciel, discrètement.
+[style name="vn"]
+duc (Duc normal): Une union nécessaire.
+Ugo, mon fiancé, se pencha vers moi pour me murmurer ses pensées.
+ugo (Ugo sourire): “Union nécessaire”… ils auraient pu dire “transaction”, ça irait plus vite.
+lexa (Lexa souriante): C’est moins élégant.
+ugo (Ugo sourire): Ils aiment l’élégance.
+On nous informa que certains nobles étaient déjà présents au bal, il ne manquait plus que nous, les sujets même de cette soirée si précieuse.
+ugo (Ugo sourire): Prête, Lexa ?
+lexa (Lexa souriante): Et toi ?
+[style name="vnSansNom"]
+lexa (Lexa souriante): Aucun de nous ne répondit. On se souriait simplement, complice.
+[style name="vn"]
+jump scene3/
