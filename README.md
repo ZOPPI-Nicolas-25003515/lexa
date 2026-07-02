@@ -5,9 +5,10 @@ Présentation de notre jeu pour la Game Jam 2026 [ici](https://nicolasz.itch.io/
 
 # COMMITS
 svp l'équipe, pour qu'on se comprenne tous j'aimerais qu'à chaque commit vous faites ces étapes :
--Pour chaque ajout, vous faites une branche et qui porte le nom de l'ajout, exemple :
-  je créé une branche feat/AjoutDesIllustrations pour commit les nouvelles illustrations de personnages, pas besoin de décrire entièrement l'ajout dans le nom de la branche
-  (ce sera au début soit feat pour un ajout soit fix pour une correction)
+
+-Pour chaque ajout, vous faites une branche et qui porte le nom de l'ajout, exemple :  
+    je créé une branche feat/AjoutDesIllustrations pour commit les nouvelles illustrations de personnages (ce sera au début soit feat pour un ajout soit fix pour une correction)  
+    pas besoin de décrire entièrement l'ajout dans le nom de la branche 
 
 -Quand vous faites un commit vous mettrez dans le titre du commit : "feat(Ajout): état d'avancement" (ou fix donc)
 
