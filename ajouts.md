@@ -1,4 +1,4 @@
-##COMMITS
+# COMMITS
 svp l'équipe, pour qu'on se comprenne tous j'aimerais qu'à chaque commit vous faites ces étapes :
 -Pour chaque ajout, vous faites une branche et qui porte le nom de l'ajout, exemple :
   je créé une branche feat/AjoutDesIllustrations pour commit les nouvelles illustrations de personnages, pas besoin de décrire entièrement l'ajout dans le nom de la branche
